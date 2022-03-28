@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991F1E3E27F1928000EA4C52 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61627F1561E00454F7A /* ViewModel */; };
+		991F1E3F27F1929700EA4C52 /* CurrencyConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938A61E27F1565A00454F7A /* CurrencyConverterService.swift */; };
+		991F1E4027F192A100EA4C52 /* Presenters in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61427F1561D00454F7A /* Presenters */; };
+		991F1E4127F192BF00EA4C52 /* CurrencyConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938A61E27F1565A00454F7A /* CurrencyConverterService.swift */; };
+		991F1E4227F192CC00EA4C52 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61327F1561D00454F7A /* Model */; };
+		991F1E4327F192CF00EA4C52 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61727F1561E00454F7A /* Extensions */; };
 		9938A5FE27F154B200454F7A /* CurrencyAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9938A5FD27F154B200454F7A /* CurrencyAPI.docc */; };
 		9938A60427F154B300454F7A /* CurrencyAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9938A5F927F154B200454F7A /* CurrencyAPI.framework */; };
 		9938A60927F154B300454F7A /* CurrencyAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9938A60827F154B300454F7A /* CurrencyAPITests.swift */; };
@@ -15,6 +21,8 @@
 		9938A61927F1561E00454F7A /* Presenters in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61427F1561D00454F7A /* Presenters */; };
 		9938A61B27F1561E00454F7A /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61627F1561E00454F7A /* ViewModel */; };
 		9938A61C27F1561E00454F7A /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 9938A61727F1561E00454F7A /* Extensions */; };
+		997DCA8927F1775A005641C4 /* CurrencyConverterServicesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DCA8827F1775A005641C4 /* CurrencyConverterServicesTest.swift */; };
+		997DCA8B27F177D1005641C4 /* CurrencyConverterViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DCA8A27F177D1005641C4 /* CurrencyConverterViewModelTest.swift */; };
 		B0CBAEDCC3CD30EA7D36DD32 /* libPods-CurrencyAPI-CurrencyAPITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B44568469FB5735600BB7BAC /* libPods-CurrencyAPI-CurrencyAPITests.a */; };
 		F4543903D7A205DE89CC0606 /* libPods-CurrencyAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CC9113D22262EED782F446 /* libPods-CurrencyAPI.a */; };
 /* End PBXBuildFile section */
@@ -43,6 +51,8 @@
 		9938A61627F1561E00454F7A /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
 		9938A61727F1561E00454F7A /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
 		9938A61E27F1565A00454F7A /* CurrencyConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterService.swift; sourceTree = "<group>"; };
+		997DCA8827F1775A005641C4 /* CurrencyConverterServicesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterServicesTest.swift; sourceTree = "<group>"; };
+		997DCA8A27F177D1005641C4 /* CurrencyConverterViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModelTest.swift; sourceTree = "<group>"; };
 		B44568469FB5735600BB7BAC /* libPods-CurrencyAPI-CurrencyAPITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CurrencyAPI-CurrencyAPITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30DD28F5C15FCFD979FA324 /* Pods-CurrencyAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyAPI.debug.xcconfig"; path = "Target Support Files/Pods-CurrencyAPI/Pods-CurrencyAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		EB211FA9BAB8855AF113EABE /* Pods-CurrencyAPI-CurrencyAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyAPI-CurrencyAPITests.debug.xcconfig"; path = "Target Support Files/Pods-CurrencyAPI-CurrencyAPITests/Pods-CurrencyAPI-CurrencyAPITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				9938A60827F154B300454F7A /* CurrencyAPITests.swift */,
+				997DCA8827F1775A005641C4 /* CurrencyConverterServicesTest.swift */,
+				997DCA8A27F177D1005641C4 /* CurrencyConverterViewModelTest.swift */,
 			);
 			path = CurrencyAPITests;
 			sourceTree = "<group>";
@@ -244,6 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991F1E4227F192CC00EA4C52 /* Model in Resources */,
+				991F1E3E27F1928000EA4C52 /* ViewModel in Resources */,
+				991F1E4327F192CF00EA4C52 /* Extensions in Resources */,
+				991F1E4027F192A100EA4C52 /* Presenters in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9938A5FE27F154B200454F7A /* CurrencyAPI.docc in Sources */,
+				991F1E4127F192BF00EA4C52 /* CurrencyConverterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997DCA8B27F177D1005641C4 /* CurrencyConverterViewModelTest.swift in Sources */,
+				991F1E3F27F1929700EA4C52 /* CurrencyConverterService.swift in Sources */,
 				9938A60927F154B300454F7A /* CurrencyAPITests.swift in Sources */,
+				997DCA8927F1775A005641C4 /* CurrencyConverterServicesTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB211FA9BAB8855AF113EABE /* Pods-CurrencyAPI-CurrencyAPITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -522,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39253421CF3F6C4E6F78299D /* Pods-CurrencyAPI-CurrencyAPITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
