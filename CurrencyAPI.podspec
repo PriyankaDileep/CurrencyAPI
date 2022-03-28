@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '13.0'
 s.name = "CurrencyAPI"
 s.summary = "Convert currency."
 s.requires_arc = true
